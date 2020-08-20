@@ -1,0 +1,15 @@
+div.app {
+  text-align: center;
+}
+
+
+.calculator{
+  background-color: #282c34;
+  color: white;
+}
+
+input {
+  width: 60px;
+  margin: 5px;
+
+}
