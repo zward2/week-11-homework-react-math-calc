@@ -78,7 +78,7 @@ class Calculator extends React.Component {
     
         return (
           <div>
-             {/* first operand */}
+             {/* value1 */}
                 <input type= "number" onChange={this.onValue1Change} />
 
                 <select onChange={this.onOperatorChange}>
@@ -88,7 +88,7 @@ class Calculator extends React.Component {
                   <option>/</option>
                 </select>
 
-                {/* second operand*/}
+                {/* value2*/}
                 <input type="number" onChange={this.onValue2Change}/>
 
                 <button onClick={this.calculate}> =</button>
